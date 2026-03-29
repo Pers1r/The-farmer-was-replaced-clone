@@ -1,13 +1,15 @@
 package com.yourname.app;
 
+import com.yourname.app.gui.HelloApp;
+
 /**
  * Hello world!
  *
  */
-public class App 
+public class Main
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        HelloApp.main(args);
     }
 }
